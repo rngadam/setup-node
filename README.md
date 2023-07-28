@@ -26,6 +26,7 @@ See [action.yml](action.yml)
     node-version: ''
 
     # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+    # You can also specify package.json here to use a specified engines.node version
     # If node-version and node-version-file are both provided the action will use version from node-version. 
     node-version-file: ''
 
